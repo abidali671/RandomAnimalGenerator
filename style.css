@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background: #efefea;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: #007bff;
+}
+.title {
+  background-color: #fff;
+}
+/* Generate Button */
+#generate {
+  border-radius: 20px;
+  border: 1px solid #007bff;
+  color: #fff;
+  background-color: #007bff;
+  outline: none;
+  padding: 5px 20px;
+}
+#generate:hover {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+#generate:active {
+  transform: scale(0.99);
+}
+/* No of Animals Input Box*/
+.no-of-animals {
+  width: 250px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.input-title {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+}
+#animal-list {
+  background-color: #fff;
+}
+.animal-list-item {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 1rem 0px;
+  padding: 0;
+}
+.animal-list-item img {
+  width: 100%;
+}
+.animal-name {
+  text-transform: capitalize;
+  text-align: center;
+}
