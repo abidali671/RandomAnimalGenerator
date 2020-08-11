@@ -14,20 +14,23 @@ header {
   background-color: #fff;
 }
 /* Generate Button */
-#generate {
+.generate {
   border-radius: 20px;
   border: 1px solid #007bff;
   color: #fff;
   background-color: #007bff;
-  outline: none;
   padding: 5px 20px;
 }
-#generate:hover {
+.generate:hover {
   border-color: rgba(0, 0, 0, 0.5);
 }
-#generate:active {
+.generate:active {
   transform: scale(0.99);
 }
+.generate:focus {
+  outline: none;
+}
+
 /* No of Animals Input Box*/
 .no-of-animals {
   width: 250px;
@@ -53,4 +56,9 @@ header {
 .animal-name {
   text-transform: capitalize;
   text-align: center;
+}
+@media (max-width: 496px) {
+  .site-title {
+    font-size: 2rem;
+  }
 }
